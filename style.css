@@ -1,0 +1,106 @@
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+Body{
+  background: #F9F7F7;
+  Color: #DBE2EF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+}
+.img-circle {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  /* width: 180px;
+  border-radius: 50%; je prefère mon elipse mais je suis les consignes.  a*/ 
+
+}
+h1, h2 {
+font-family: 'Roboto', sans-serif;
+}
+H1 {
+  color: #112D4E;
+  font-size: 32px;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+
+H2 {
+  color: #3F72AF;
+  font-size: 24px;
+  font-weight: 700;
+}
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.container{
+  width: 700px;
+  margin: 30px auto;
+}
+
+@media (max-width: 960px){
+.container {
+  witdh: 700px;
+}
+}
+@media (max-width: 720px){
+.container {
+  witdh: 500px;
+}
+}
+@media (max-width: 540px){
+.container {
+  witdh: 300px;
+}
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  text-align: center;
+  margin: 20px 0px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.btn-blue{
+  background-color:#3F72AF; 
+  border-radius: 4px;
+  color: white;
+  padding: 10px 15px;
+
+}
+.btn-blue:hover {
+  color: white;
+  background-color: #112D4E;
+}
+
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+display: inline;
+padding: 10px;
+}
+
+.list-inline i {
+  
+  color: #DBE2EF;
+  font-size: 40px;
+}
+.list-inline i:hover {
+  
+  color: #112D4E;
+  font-size: 50px;
+}
+#introduction p {
+margin-bottom: 40px;
+}
